@@ -49,7 +49,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(Arrays.asList(
                 "http://localhost:3000",
-                "https://golf-frontend.vercel.app"));
+                "https://vercel.com/nisheth-teddys-projects/golf-frontend"));
         config.setAllowedOrigins(Arrays.asList("http://localhost:3000"));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("*"));
